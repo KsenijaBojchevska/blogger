@@ -1,0 +1,22 @@
+body {
+    position: relative; 
+  }
+.backgroundImg{
+    height: 100vh;
+    background-image: url(Images/home.jpg);
+    background-attachment:inherit;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.opacity{
+  background-color: rgba(0,0,0,0.5);
+}
+
+.center{
+    display:flex;
+     justify-content:center;
+      align-items:center;
+      height: 100vh;
+}
